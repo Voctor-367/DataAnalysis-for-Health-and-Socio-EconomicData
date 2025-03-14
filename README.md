@@ -88,9 +88,7 @@ Este projeto realiza um processo de **ETL (Extração, Transformação e Carga)*
 - Exposição a riscos no trabalho (Mapa do Brasil)
 
 ## 🎯 Insights Importantes
-📌 **Ocupação e Saúde**: Depressão é mais comum entre trabalhadores domésticos, já entre militares apreval~encia é menor.  
-      Dos que responderam a pergunta: Sentiu-se deprimido ultimamente, 35,9% dos trabalhadores domésticos relataram que sim, 
-      contra 14,44% dos militares.
+📌 **Ocupação e Saúde**: Depressão é mais comum entre trabalhadores domésticos, já entre militares a prevalência é menor.  Dos que responderam a pergunta "Sentiu-se deprimido ultimamente ?", 35,9% dos trabalhadores domésticos relataram que sim, contra 14,44% dos militares.
 📌 **Renda e Saúde**: Quanto menor a renda, maior a frequência de consultas médicas.  
 📌 **Raça e Plano de Saúde**: Indígenas possuem a menor taxa de cobertura.  
 📌 **Sexo e Depressão**: Mulheres têm maior prevalência de diagnósticos.  
