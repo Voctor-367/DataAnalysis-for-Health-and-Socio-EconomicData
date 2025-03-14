@@ -4,6 +4,10 @@
 
 Este projeto realiza um processo de **ETL (Extração, Transformação e Carga)** e **análise exploratória** dos dados da **Pesquisa Nacional de Saúde (PNS) 2019**, com o objetivo de construir um **dashboard interativo** no Power BI. O foco é identificar **desafios e tendências na área da saúde no Brasil**, facilitando o acesso e a interpretação de informações relevantes para **pesquisadores, estudantes e profissionais da saúde**.
 
+
+![](resultado1.PNG)
+
+
 ## 🎯 Objetivos
 ✅ Facilitar a extração de informações significativas a partir de grandes volumes de dados da PNS 2019.  
 ✅ Integrar dados de diferentes fontes (objetivo futuro).  
@@ -15,23 +19,22 @@ Este projeto realiza um processo de **ETL (Extração, Transformação e Carga)*
 ```
 📂 etl_pns2019
 ├── 📁 data              # Dados brutos e transformados
-│   ├── pns2019.csv     # Base de dados original
 │   ├── PNS_trabalhoXSaude.csv  # Base de dados tratada
 │   ├── dicionario_PNS_microdados_2019.csv  # Dicionário dos dados, contendo todos os códigos e suas respectivas perguntas.
-│   ├── dicionario_PNS_microdados_2019.csv  # Dicionário dos dados, contendo todos os códigos e suas respectivas perguntas.
+│   ├── dicionario_ETL.md  # Dicionário dos dados da dataset tratado.
 │
-├── 📁 notebooks        # Notebooks para análise e ETL
+├── 📁 notebook        # Notebooks para análise e ETL
 │   ├── EDA_completa.ipynb   # Extração, Tratamento, e Análise Exploratória dos dados.
 │
 ├── 📁 dashboards       # Arquivos do Power BI
-│   ├── PNS_dashboard.pbix  # Dashboard interativo
+│   ├── PowerBiPNS.pbix  # Dashboard interativo
 
 ├── README.md          # Documentação principal
 ```
 
 ## 🏛 Fonte de Dados
 📌 **Pesquisa Nacional de Saúde (PNS) 2019**, disponibilizada pelo **Ministério da Saúde e IBGE**.  
-🔗 [Link para a base de dados](#) *(https://www.ibge.gov.br/estatisticas/sociais/saude/29540-2013-pesquisa-nacional-de-saude.html?edicao=9177&t=microdados).*  
+🔗 [Link para a base de dados (Fiocruz)](#) *([https://www.ibge.gov.br/estatisticas/sociais/saude/29540-2013-pesquisa-nacional-de-saude.html?edicao=9177&t=microdados](https://www.pns.icict.fiocruz.br/bases-de-dados/)).*  
 
 ## ⚙️ Tecnologias Utilizadas
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)  
@@ -94,4 +97,3 @@ Este projeto realiza um processo de **ETL (Extração, Transformação e Carga)*
 📌 **Exposição a Riscos**: Mapa interativo mostra variação por estado.  
 
 ---
-
