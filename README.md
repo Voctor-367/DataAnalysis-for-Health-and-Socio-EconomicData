@@ -29,6 +29,7 @@ Este projeto realiza um processo de **ETL (Extração, Transformação e Carga)*
 ├── 📁 dashboards       # Arquivos do Power BI
 │   ├── PowerBiPNS.pbix  # Dashboard interativo
 
+├── PowerBiPNS.pdf     # DashBoard exportado em PDF
 ├── README.md          # Documentação principal
 ```
 
